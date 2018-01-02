@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My ImaginaryHotel</string>
+    <string name="guest_name_hint">Enter name for guest.</string>
+    <string name="guest_name_label">Name.</string>
+    <string name="guest_details_label">Date of check in.</string>
+    <string name="guest_checkedIn_label">Checked In.</string>
+    <string name="guest_checkedOut_label">Checked Out.</string>
+    <string name="date_picker_title">Date of Check In:</string>
+    <string name="date_picker_title2">Date of Check Out:</string>
+
+    <string name="new_guest">New Guest</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$s guest/s</string>
+
+    <string name="guest_room_number">Pick Room</string>
+    <string name="hotel_location_text">Find our location!</string>
+    <string name="title_activity_map">MapActivity</string>
+
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="no.woact.sirroberty.tictactoe.StartActivity">
+
+
+    <EditText
+        android:id="@+id/playerX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Player2"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="65dp"
+        android:layout_marginStart="24dp"
+        android:layout_alignBaseline="@+id/playerO"
+        android:layout_alignBottom="@+id/playerO"
+        android:layout_toEndOf="@+id/btnStartGame"/>
+
+    <EditText
+        android:id="@+id/playerO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Player1"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="65dp"
+        android:layout_toStartOf="@+id/btnStartGame"
+        />
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="395dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:weightSum="3"
+    tools:context="no.woact.sirroberty.tictactoe.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+        android:weightSum="2"
+        android:orientation="vertical"
+        <TextView
+            android:id="@+id/playerX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PlayerX"/>
+
+        <TextView
+            android:id="@+id/playerO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PlayerO"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/square1"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="87dp"
+            android:fontFamily="serif"/>
+        <Button
+            android:id="@+id/square2"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="87dp"
+            android:fontFamily="serif"/>/>
+        <Button
+            android:id="@+id/square3"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="87dp"
+            android:fontFamily="serif"/>/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/square4"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="87dp"
+            android:fontFamily="serif"/>/>
+        <Button
+            android:id="@+id/square5"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="87dp"
+            android:fontFamily="serif"/>/>
+        <Button
+            android:id="@+id/square6"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="87dp"
+            android:fontFamily="serif"/>/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/square7"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="87dp"
+            android:fontFamily="serif"/>/>
+        <Button
+            android:id="@+id/square8"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="87dp"
+            android:fontFamily="serif"/>/>
+        <Button
+            android:id="@+id/square9"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="87dp"
+            android:fontFamily="serif"/>/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="New Game"/>
+
+    <Button
+        android:id="@+id/gameHistory"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Game History"/>
+</LinearLayout>
