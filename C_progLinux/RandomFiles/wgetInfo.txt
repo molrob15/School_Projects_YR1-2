@@ -1,0 +1,10 @@
+When using wget, the -O option specifies where to download the file to, not the folder. For example, this won't work:
+
+wget -O /path/to/folder http://example.com/
+But this will:
+
+wget -O /path/to/folder/filename http://example.com/
+Note that I added filename to the end of the path telling it what the file should be called. If you want to download to a specific folder, but use the default file name, pass the -P option.
+
+wget -P /path/to/folder http://example.com/
+This will save a file in /path/to/folder with the default name, with the above example, it would be index.html.
